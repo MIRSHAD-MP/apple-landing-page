@@ -1,0 +1,325 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;vvvfont-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f5f5f7;
+    height: 44px;
+    font-size: 12px;
+    left: 0;
+    letter-spacing: .01em;
+    align-items: center;
+}
+
+ul {
+    
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+}
+
+li {
+    list-style: none;
+    margin-left: 40px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.banner > * {
+    display: flex;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 40px;
+}
+
+.banner h2 {
+    font-size: 26pt;
+    font-weight: lighter;
+}
+
+#banner-one div {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner-two div {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#banner-two img {
+    width: 160px;
+}
+
+#banner-two h2 {
+    font-size: 28px;
+}
+
+#banner-one img {
+    width: 250px;
+}
+
+#banner-one h1 {
+    font-size: 54px;
+    display: inline;
+    font-weight: 500;
+}
+
+.banner a {
+    letter-spacing: inherit;
+    color: #06c;
+    font-size: 16pt;
+    font-weight: 10px;
+    text-decoration: none;
+}
+
+#banner-one {
+    
+    background-image: url('img/hero_macbookair__el7scava26mq_large.png');    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 100vh;
+    width: 100vw;
+}
+
+#banner-two {
+    background-image: url('./img/hero_watch_lte__b8er858e34gi_large.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+#banner-three {
+    background-image: url('img/mirshad.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+h1 span {
+    color: #ca2266;
+}
+
+.category {
+    display: flex;
+}
+
+.category .box {
+    text-align: center;
+    height: 80vh;
+    width: 50%;
+    margin: 10px;
+    background-size: cover;
+    padding-top: 20px;
+    color: white;
+}
+
+.category .box {
+    text-decoration: none;
+    font-size: 14pt;
+    padding-top: 20px;
+}
+
+#box1 {
+    background-image: url('img/box1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#box2 {
+    background-image: url('img/box2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#box1 .label {
+    font-size: 14pt;
+    letter-spacing: 2px;
+}
+
+#box3 {
+    background-image: url('img/box33.jpg');
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+#box4 {
+    background-image: url('img/box4.jpg');
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+}
+
+#box5{
+    background-image: url('img/box55.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#box6 {
+    background-image: url('img/box66.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+footer {
+    border: #d2d2d7;
+    background-color:#f5f5f7;
+    width: 100vw;
+}
+
+.container {
+    color: #6e6e73;
+    font-weight: 400;
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    font-size: 12px;
+    line-height: 1.33337;
+    letter-spacing: .01em;
+}   
+
+.box h1 h2 {
+    font-size: 35px;
+}
+
+#box5 img {
+    width: 100px;
+}
+
+#box6 img {
+    width: 130px;
+}
+
+#box5 h3 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#box6 h3 {
+    font-size: 20px;
+    font-weight: 120;
+}
+
+#box5 a {
+    color: #06c;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+}
+#box6 a {
+    color: #06c;
+    font-size: 17px;
+    line-height: 1.23536;
+    font-weight: 400;
+}
+
+#box1 h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box2 h1 {
+    font-size: 40px;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box1 h2 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#box2 h2 {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+#box4 img {
+    width: 20%;
+}
+
+#box4 h2 { 
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: .016em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#box1 a { 
+    color:  #2997ff;
+  }
+  
+#box2 a { 
+      color:  #2997ff;
+  }
+#box3 a { 
+  color:  #2997ff;
+  font-size: 17px;
+  line-height: 1.23536;
+  font-weight: 400;
+  
+}
+
+#box4 a { 
+    color:  #2997ff;
+}
+
+#box3 img {
+    width: 200px;
+
+} 
+
+#box3 h1 {
+    font-size: 35px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: Arial, Helvetica, sans-serif;
+}
